@@ -26,11 +26,11 @@ int main(void)
 		}
 		else if (num == 0)
 		{
-			printf(" is 0 and is 0");
+			printf(" is 0 and is 0\n");
 		}
 		else
 		{
-			printf(" is %d and is less than 6 and not 0 \n", num);
+			printf(" is %d and is less than 6 and not 0\n", num);
 		}
 
 
