@@ -11,14 +11,14 @@
 
 int main(void)
 {
-	int n;
+	int n, num;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	printf("Last digit of %d", n);
 
-		int num = n % 10;
+	num = n % 10;
 
 		if (num > 5)
 		{
