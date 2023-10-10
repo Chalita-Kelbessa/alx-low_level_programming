@@ -12,7 +12,8 @@ int main(void)
 {
 	char str[15] = "_putchar";
 
-	printf("%s", str);
+	printf("%s\n", str);
 
+	fprintf(stderr, "Anything\n");
 	return (0);
 }
