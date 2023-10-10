@@ -12,7 +12,7 @@ int main(void)
 {
 	char str[15] = "_putchar";
 
-	printf("\"%s\"", str);
+	printf("%s", str);
 
 	return (0);
 }
