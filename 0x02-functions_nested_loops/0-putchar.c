@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - program prints putchar
@@ -10,8 +11,6 @@
 int main(void)
 {
 	char str[15] = "_putchar";
-
-	printf("String: ");
 
 	printf("\"%s\"", str);
 
