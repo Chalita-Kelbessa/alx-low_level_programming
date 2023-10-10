@@ -14,6 +14,6 @@ int main(void)
 
 	printf("%s\n", str);
 
-	fprintf(stderr, "Anything\n");
+	fprintf(stderr, "[Anything\n]");
 	return (0);
 }
