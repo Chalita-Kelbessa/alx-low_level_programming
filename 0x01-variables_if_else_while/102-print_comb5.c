@@ -27,15 +27,15 @@ int main(void)
 					co2 = (k * 10) + i;
 					if (co1 < co2)
 					{
-						putchar(h);
-						putchar(g);
-						putchar(' ');
-						putchar(k);
-						putchar(i);
-						if (h == 57 && g == 56 && k == 57 && i == 57)
-							break;
-						putchar(',');
-						putchar(' ');
+					putchar(h);
+					putchar(g);
+					putchar(' ');
+					putchar(k);
+					putchar(i);
+					if (h == 57 && g == 56 && k == 57 && i == 57)
+					break;
+					putchar(',');
+					putchar(' ');
 					}
 					i++;
 				}
