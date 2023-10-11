@@ -1,6 +1,6 @@
-#include <stdio.h>
 #include "main.h"
-
+#include <stdio.h>
+#include <string.h>
 /**
  * main - program prints putchar
  *
@@ -9,11 +9,17 @@
  */
 
 int main(void)
+
 {
-	char str[15] = "_putchar";
 
-	printf("%s\n", str);
+	char str[100] = "_putchar";
 
-	fprintf(stderr, "[Anything\n]");
+	for (int i = 0; i < strlen(str); i++)
+	{
+		putchar (str[i]);
+	}
+
 	return (0);
 }
+
+
