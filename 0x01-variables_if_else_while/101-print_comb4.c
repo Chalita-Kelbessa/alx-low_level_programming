@@ -1,44 +1,48 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 012 to 789.
+ * main - Prints number is 3 digit comb
  *
- * Return: Always 0 (Success)
+ * Return: 0 Success
  */
+
 int main(void)
 {
-	int i, e, g;
+	int i, g, k;
 
 	i = 48;
-	e = 48;
 	g = 48;
+	k = 48;
 
-	while (e < 58)
+	while (g < 58)
 	{
 		i = 48;
 		while (i < 58)
 		{
-			g = 48;
-			while (g < 58)
+			k = 48;
+
+			while (k < 58)
 			{
-				if (e != i && e != g && i != g && e < i && i < g)
+				if (g != i && g != k && i != k && g < i && i < k)
 				{
-					putchar(e);
+					putchar(k);
 					putchar(i);
 					putchar(g);
-					if (i == 56 && e == 55 && g == 57)
+					if (i == 56 && g == 55 && k == 57)
 					{
 						break;
 					}
 					putchar(',');
 					putchar(' ');
 				}
-				g++;
+				k++;
 			}
 			i++;
 		}
-		e++;
+		g++;
 	}
+
 	putchar('\n');
+
 	return (0);
 }
