@@ -18,12 +18,10 @@ int print_last_digit(int n)
 	if (j < 0)
 	{
 		_putchar(-j);
-		return (-1);
 	}
 	else
 	{
 		_putchar(j);
-		return (1);
 	}
 return (0);
 }
