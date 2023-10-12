@@ -11,20 +11,20 @@ int print_sign(int n)
 {
 while ((n) > 0)
 	{
-	return (43 && 49);
 	_putchar(43);
 	n++;
+	return (+1);
 	}
 while ((n) < 0)
 	{
-	return (45 && 49);
 	_putchar(45);
 	n--;
+	return (-1);
 	}
 while (n == 0)
 	{
-	return (48 && 48);
 	_putchar(48);
+	return (0);
 	}
 return (0);
 }
