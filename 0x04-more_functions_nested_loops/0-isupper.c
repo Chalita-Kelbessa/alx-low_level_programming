@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - checks for upper case character
+ * _isupper - outputs 1 if c is upper case
  *
+ * @c: alphabet in upper case
  * Return: 1 success
  *
  */
