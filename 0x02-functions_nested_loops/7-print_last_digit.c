@@ -14,6 +14,18 @@ int print_last_digit(int n)
 	int j;
 
 	j = n % 10;
-		_putchar (j);
+
+	while (j >= 0)
+	{
+		_putchar (j + 48);
+		return (j);
+		while (j < 0)
+		{
+			_putchar (-j + 48);
+			return (-j);
+			j--;
+		}
+		j++;
+	}
 	return (0);
 }
