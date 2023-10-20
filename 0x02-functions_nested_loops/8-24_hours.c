@@ -3,23 +3,24 @@
 /**
  * jack_bauer - prints every minute of  the day
  *
- * Return 0
+ * Return: void
  *
  */
 
 void jack_bauer(void)
 {
-	a = 58;
-	b = 58;
-	c = 58;
-	d = 58;
+	int m, n, s, t;
 
-	while (a <= 50)
-	{
-		b = 48;
-		while (b <= 54)
-		_putchar (a);
-		_putchar (b);
-	_putchar ('\n');
-	return (0);
+	for (m = 48; m <= 50; m++)
+		for (n = 48; n <= 57; n++)
+			for (s = 48; s <= 53; s++)
+				for (t = 48; t <= 57; t++)
+					if (m >= 2 && n >= 4)
+					break;
+						_putchar(m);
+						_putchar(n);
+						_putchar(58);
+						_putchar(s);
+						_putchar(t);
+						_putchar('\n');
 }
