@@ -20,13 +20,13 @@ void jack_bauer(void)
 				for (t = 48; t <= 57; t++)
 				{
 					if (m >= 2 && n >= 4)
-					break;
-						_putchar(m);
-						_putchar(n);
-						_putchar(58);
-						_putchar(s);
-						_putchar(t);
-						_putchar('\n');
+						break;
+					_putchar(m);
+					_putchar(n);
+					_putchar(58);
+					_putchar(s);
+					_putchar(t);
+					_putchar('\n');
 
 				}
 			}
