@@ -18,9 +18,6 @@ void times_table(void)
 		for (j = 0; j <= 9; j++)
 		{
 			n = i * j;
-			_putchar(44);
-			_putchar(32);
-
 				if (n <= 9)
 				{
 					_putchar(32);
@@ -31,6 +28,8 @@ void times_table(void)
 					_putchar((n / 10) + 48);
 					_putchar((n % 10) + 48);
 				}
+			_putchar(44);
+			_putchar(32);
 		}
 
 		_putchar('\n');
