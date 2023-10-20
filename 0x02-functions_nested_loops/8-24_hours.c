@@ -12,9 +12,13 @@ void jack_bauer(void)
 	int m, n, s, t;
 
 	for (m = 48; m <= 50; m++)
+	{
 		for (n = 48; n <= 57; n++)
+		{
 			for (s = 48; s <= 53; s++)
+			{
 				for (t = 48; t <= 57; t++)
+				{
 					if (m >= 2 && n >= 4)
 					break;
 						_putchar(m);
@@ -23,4 +27,10 @@ void jack_bauer(void)
 						_putchar(s);
 						_putchar(t);
 						_putchar('\n');
+
+				}
+			}
+		}
+	}
 }
+
