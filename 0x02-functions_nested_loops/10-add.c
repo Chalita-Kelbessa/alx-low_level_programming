@@ -19,6 +19,8 @@ int add(int a, int b)
 		_putchar((n /10)  + 48);
 		_putchar((n % 10) + 48);
 	}
+	else 
+		_putchar(n);
 	return (0);
 }
 
