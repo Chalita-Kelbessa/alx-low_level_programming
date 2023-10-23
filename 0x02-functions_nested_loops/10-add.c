@@ -16,7 +16,7 @@ int add(int a, int b)
 
 		if (a < 0 && b < 0)
 		{
-			return (-1 * add(a, b));
+			return ((0 - 1) * a + (0 - 1) * b);
 		}
 	}
 	else
