@@ -3,7 +3,9 @@
 /**
  * print_to_98 - prints all nautral numbers from n to 98
  *
- * Return: 0 sucess
+ * @n: natural numbers
+ *
+ * Return: void sucess
  *
  */
 
