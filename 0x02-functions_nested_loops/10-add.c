@@ -13,9 +13,12 @@ int add(int a, int b)
 	int n;
 
 	n = a + b;
-
-	_putchar (n + 48);
-
+	
+	if (n > 9) 
+	{
+		_putchar((n /10)  + 48);
+		_putchar((n % 10) + 48);
+	}
 	return (0);
 }
 
