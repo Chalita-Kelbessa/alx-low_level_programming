@@ -9,8 +9,17 @@
 
 void print_to_98(int n)
 {
-	for (; n < 98; n++)
-		printf("%d,/t", n);
-	for (; n > 98; n--)
-		printf("%d,/t", n);
+
+	while (n > 98)
+	{
+		printf("%d, ", n);
+	n--;
+	}
+	while (n < 98)
+	{
+		printf("%d, ", n);
+	n++;
+	}
+	printf("98");
+	printf("\n");
 }
